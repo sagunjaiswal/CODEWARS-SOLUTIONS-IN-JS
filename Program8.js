@@ -20,6 +20,9 @@ String with spaces around should be trimmed.
 Non-whitespace (ex. breakspace, unicode chars) should be treated as a delimiter
 Doublecheck that words with chars like -, ', ` are counted right.
 */
-function wordCount(str) { 
-return (str.split(" ")).length; 
+function countWords(str) {
+  if(str == "")
+      return 0;
+  return str.match(/(\w+)/g).length;
 }
+
