@@ -1,5 +1,5 @@
 /*
-LINK :
+LINK : https://www.codewars.com/kata/prefill-an-array
 QUESTION :
 Given an input n, write a function always that returns a function which returns n. Ruby should return a lambda or a proc.
 
